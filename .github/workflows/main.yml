@@ -38,9 +38,9 @@ jobs:
     # from https://github.com/peaceiris/actions-gh-pages
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.GB_SSH_PRIVATE_KEY }}
-          external_repository: 用户名/仓库
-          publish_branch: master
-          publish_dir: ./public
-          commit_message: ${{ github.event.head_commit.message }}
+      with:
+        deploy_key: ${{ secrets.GB_SSH_PRIVATE_KEY }}
+        external_repository: 用户名/仓库
+        publish_branch: master
+        publish_dir: ./public
+        commit_message: ${{ github.event.head_commit.message }}
