@@ -33,7 +33,7 @@ jobs:
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
-        npm run build
+        npm run start
 
     # from https://github.com/peaceiris/actions-gh-pages
     - name: Deploy

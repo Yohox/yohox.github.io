@@ -23,5 +23,13 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "markdown-it-latex2img": "^0.0.6"
+  },
+  "devDependencies": {
+    "yuque-hexo": "^1.6.5"
+  },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "u155087",
+    "repo": "vl8d0i"
   }
 }
